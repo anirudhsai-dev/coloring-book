@@ -1,0 +1,32 @@
+# Python virtual environments
+book_env/
+env/
+venv/
+.venv/
+ENV/
+
+# Python cache & build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Generated PDF outputs
+*.pdf
+coloring_book.pdf
+coloring_book_full_wrap_8x11.pdf
+
+# Generated images directory contents (optional: keep folder structure, exclude files)
+images/*
+!images/.gitkeep
+upscaled_images/*
+!upscaled_images/.gitkeep
+coverend/*
+!coverend/.gitkeep
+
+# IDE & OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
