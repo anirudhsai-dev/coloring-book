@@ -1,24 +1,7 @@
-# Python virtual environments
-book_env/
-env/
 venv/
-.venv/
-ENV/
-
-# Python cache & build outputs
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Generated PDF outputs
+images/
+upscaled_images/
+coverend/
 *.pdf
-coloring_book.pdf
-coloring_book_full_wrap_8x11.pdf
-
-# IDE & OS settings
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+.env

@@ -1,9 +1,29 @@
 # prompt_templates.py
 
 prompt_templates = {
-    1: "Create six black-and-white digital line drawings of {items}. The drawings should have a clean, hand-drawn aesthetic with bold outlines and slight shading for depth.",
-    
-    2: "Illustrate six unique {theme} objects in black and white, maintaining a consistent hand-drawn style with bold lines and minor shading for depth. The objects include {items}.",
-    
-    3: "Generate six artistic black-and-white sketches featuring {items}. Each should have bold outlines, fine details, and minimal shading, ensuring a professional coloring book aesthetic."
+    # 1. Color-by-number style (Toddler / Preschool) — closest match to your sample
+    1: (
+        "cute simple cartoon {item}, toddler color by number page, "
+        "thick continuous black outlines, bold clean lines, large open empty shapes, "
+        "wide closed sections, minimalist vector line art, pure white blank background, "
+        "no shading, no gray, centered composition, high contrast, "
+        "placed in upper half of page, wide empty white bottom margin"
+    ),
+
+    # 2. Bold & Easy Kawaii / Cartoon Style
+    2: (
+        "simple charming coloring page of a cute chunky {item}, bold and easy coloring style, "
+        "clean continuous thick black lines, rounded closed contours, "
+        "empty white fills, blank white background, no texture, no shadows, "
+        "single central character, children coloring book, "
+        "abundant blank space at bottom of page"
+    ),
+
+    # 3. Geometric / Segmented Character Line Art
+    3: (
+        "clean outline art of a stylized cartoon {item} with clean segmented areas, "
+        "thick black border lines, simple internal divider lines, coloring book page for kids, "
+        "vector clip art style, solid white background, zero shading, zero hatching, "
+        "centered focal character, large bottom margin for footer key"
+    ),
 }
